@@ -6,7 +6,12 @@ class donutTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Center(child: Text("DONUT TAB")),
+      child: Center(
+        child: Text(
+          "DONUT ",
+          style: TextStyle(backgroundColor: Colors.amber),
+        ),
+      ),
     );
   }
 }
